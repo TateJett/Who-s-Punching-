@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Comparison</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include jQuery for simplified AJAX requests -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Who's Punching?</h1>
+    <p>Select two photos to compare and see who is more attractive!</p>
+    <div class="form-container">
+        <form id="image-form">
+            <div class="input-container">
+                <input type="file" id="image-input-1" accept="image/*" required>
+                <input type="file" id="image-input-2" accept="image/*" required>
+            </div>
+            <div class="image-preview-container">
+                <div id="image-preview-1" class="image-box"></div>
+                <div id="image-preview-2" class="image-box"></div>
+            </div>
+            <button type="submit" id="compare-button">Go</button>
+        </form>
+    </div>
+    <div id="result"></div>
+</body>
+</html>
