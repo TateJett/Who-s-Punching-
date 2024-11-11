@@ -1,4 +1,4 @@
-# Who-s-Punching-
+# Attractiveness comparison website
 My First website test project 
 
 Overview:
